@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.hero-section{
+    background-image: url(https://assets-global.website-files.com/5c6d6c45eaa55f57c6367749/65046bf150d1abb7e5911702_x-65046bcfdc4f0.webp);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    height:100vh;
+    position: relative;
+    text-align: center;
+}
+.hero-div{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero-button,
+.know-more{
+    background-color: aqua;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 8px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.about-us{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin: 10px 10px;
+}
+.aboutus-section >h1 {
+    text-align: center;
+    margin: 15px 0px;
+    text-decoration: underline;
+}
+.aminities{
+    text-align: center;
+}
+.aminities ul{
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
